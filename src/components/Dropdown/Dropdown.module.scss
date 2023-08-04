@@ -1,0 +1,39 @@
+.dropdown {
+  // prettier-ignore
+  background: url("../../assets/images/filter-down.svg") var(--neutrals-black, #000) no-repeat;
+  background-position: 90% 50%;
+  width: 203px;
+  border-radius: 16px;
+  border: 1px solid var(--main-grey-lines, #444);
+  color: var(--neutrals-white, #fff);
+  text-align: left;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 16px 24px;
+  cursor: pointer;
+  border-radius: 16px;
+  border: 1px solid var(--main-grey-lines, #444);
+}
+
+.dropdown.open {
+  border-radius: 16px;
+  background: var(--neutrals-white, #fff);
+  color: var(--neutrals-black, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 32px;
+}
+
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 32px;
+}
